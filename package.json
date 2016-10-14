@@ -2,10 +2,9 @@
   "name": "react-hello-bublling",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --optimize-minimize"
   },
   "keywords": [],
   "author": "",
@@ -32,6 +31,8 @@
     "babel-preset-react": "6.16.0",
     "glob": "7.1.1",
     "webpack": "1.13.2",
-    "webpack-dev-server": "1.16.2"
+    "webpack-dev-server": "1.16.2",
+    "webpack-merge": "^0.14.1",
+    "webpack-validator": "^2.2.9"
   }
 }
